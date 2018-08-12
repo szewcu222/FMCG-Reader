@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/application_vertical_margin"
+    android:paddingLeft="@dimen/application_horizontal_margin"
+    android:paddingRight="@dimen/application_horizontal_margin"
+    android:paddingTop="@dimen/application_vertical_margin"
+    tools:context="com.ap.fmcgr.ReadsActivity"
+    tools:ignore="NestedWeights">
+    
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_gravity="center"
+       android:layout_weight="1"
+       android:orientation="vertical" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/black"
+           android:orientation="vertical"
+           android:paddingBottom="@dimen/activity_reads_blackspace_vertical_margin"
+           android:paddingLeft="@dimen/activity_reads_blackspace_horizontal_margin"
+           android:paddingRight="@dimen/activity_reads_blackspace_horizontal_margin"
+           android:paddingTop="@dimen/activity_reads_blackspace_vertical_margin" >
+           
+           <!-- UID -->
+           <TextView
+               android:id="@+id/textViewReadedUidHeader"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/reads_activity_readed_uid_header"
+               android:textColor="@color/white"
+               android:textSize="@dimen/activity_reads_uid_size" />
+
+           <TextView
+               android:id="@+id/textViewReadedUidNumber"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/text_view_readed_uid_number_empty"
+               android:text="@string/text_view_readed_uid_number_empty"
+               android:gravity="center"
+               android:textColor="@color/blue"
+               android:textSize="@dimen/activity_reads_uid_number_size"/>
+
+           <!-- Nazwa towaru -->
+           <TextView
+               android:id="@+id/textViewReadedProductHeader"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/reads_activity_readed_product_header"
+               android:textColor="@color/white"
+               android:textSize="@dimen/activity_reads_product_header_size" />
+
+           <TextView
+               android:id="@+id/textViewReadedProductName"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/text_view_readed_product_name_empty"
+               android:text="@string/text_view_readed_product_name_empty"
+               android:gravity="center"
+               android:textColor="@color/darkorange"
+               android:textSize="@dimen/activity_reads_product_name_size"/>
+
+           <!-- Producent -->
+           <TextView
+               android:id="@+id/textViewReadedManufacturerHeader"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/reads_activity_readed_manufacturer_header"
+               android:textColor="@color/white"
+               android:textSize="@dimen/activity_reads_manufacturer_header_size" />
+
+           <TextView
+               android:id="@+id/textViewReadedManufacturerName"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/text_view_readed_manufacturer_name_empty"
+               android:text="@string/text_view_readed_manufacturer_name_empty"
+               android:gravity="center"
+               android:textColor="@color/darkorange"
+               android:textSize="@dimen/activity_reads_manufacturer_name_size"
+               tools:ignore="UnusedAttribute" />
+           
+           <TextView
+               android:id="@+id/textViewReadedPriceHeader"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/reads_activity_readed_price_header"
+               android:textColor="@color/white"
+               android:textSize="@dimen/activity_reads_price_header_size" />
+
+           <TextView
+               android:id="@+id/textViewReadedPriceValue"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/text_view_readed_price_value_empty"
+               android:text="@string/text_view_readed_price_value_empty"
+               android:gravity="center"
+               android:textColor="@color/darkorange"
+               android:textSize="@dimen/activity_reads_price_value_size"
+               tools:ignore="UnusedAttribute" />
+           
+<!--            <TextView -->
+<!--                android:id="@+id/textViewReadedOtherData" -->
+<!--                android:layout_width="fill_parent" -->
+<!--                android:layout_height="wrap_content" -->
+<!--                android:text="@string/ReadsActivityReadedOtherDataHeader" -->
+<!--                android:textColor="@color/white" -->
+<!--                android:textSize="@dimen/activity_reads_other_data_header_size" /> -->
+           
+       </LinearLayout>
+       
+	   <LinearLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="0dp"
+	       android:layout_weight="1"
+	       android:background="@color/black"
+	       android:orientation="vertical"
+	       android:paddingBottom="@dimen/activity_reads_blackspace_vertical_margin"
+	       android:paddingLeft="@dimen/activity_reads_blackspace_horizontal_margin"
+	       android:paddingRight="@dimen/activity_reads_blackspace_horizontal_margin"
+	       android:paddingTop="@dimen/activity_reads_blackspace_vertical_margin">
+
+	       <ListView
+	           android:id="@+id/listViewReadedTagData"
+	           android:layout_width="match_parent"
+	           android:layout_height="0dp"
+	           android:layout_weight="0.85"
+	           android:background="@color/black2"
+	           android:textColor="@color/green" >
+	
+	       </ListView>
+
+	        <LinearLayout
+	            style="?android:attr/buttonBarStyle"
+	       		android:layout_width="match_parent"
+		        android:layout_height="wrap_content"    
+	            android:orientation="horizontal">
+	       
+		       <Button
+		           style="?android:attr/buttonBarButtonStyle" 
+		           android:id="@+id/btnReadedAddToCurrentShoppingCart"
+		           android:layout_width="match_parent"
+		           android:layout_height="match_parent"
+		           android:layout_weight="0.5"
+		           android:text="@string/btn_reads_add_to_current_shopping_cart" 
+		           android:textColor="@color/white" />
+		       <Button
+		           style="?android:attr/buttonBarButtonStyle" 
+		           android:id="@+id/btnReadedClear"
+		           android:layout_width="match_parent"
+		           android:layout_height="match_parent"
+		           android:layout_weight="0.5"
+		           android:text="@string/btn_reads_clear"    
+		           android:textColor="@color/white" />
+	       </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_status_none"
+        android:visibility="gone"/>
+    
+</LinearLayout>

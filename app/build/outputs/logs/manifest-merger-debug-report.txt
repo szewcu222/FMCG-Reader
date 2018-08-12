@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:4:5-27
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:8:5-11:39
+	android:targetSdkVersion
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:11:9-36
+	android:minSdkVersion
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:13:5-62
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:13:22-59
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:14:22-63
+uses-feature#android.hardware.nfc
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:17:9-44
+application
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:20:5-72:19
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:23:9-45
+	android:allowBackup
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:21:9-28
+activity#com.ap.fmcgr.ReadsActivity
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:28:9-44:20
+	android:screenOrientation
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:29:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:34:27-74
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:37:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:38:27-73
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:41:13-43:59
+	android:resource
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:43:17-56
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:42:17-66
+activity#com.ap.fmcgr.ShoppingCartActivity
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:47:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:49:13-65
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:48:13-49
+activity#com.ap.fmcgr.AboutActivity
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:54:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:56:13-57
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:55:13-42
+activity#com.ap.fmcgr.PreferencesActivity
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:63:13-59
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:62:13-48
+activity#com.ap.fmcgr.LogActivity
+ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:67:9-70:20
+	android:label
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:69:13-55
+	android:name
+		ADDED from C:\Users\Damian\StudioProjects\FMCG Reader\app\src\main\AndroidManifest.xml:68:13-40

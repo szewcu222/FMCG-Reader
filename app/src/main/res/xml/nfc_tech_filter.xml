@@ -1,0 +1,9 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <tech-list>
+        <tech>android.nfc.tech.NfcV</tech> <!-- Provides access to NFC-V (ISO 15693) properties and I/O operations on a Tag. -->
+        <!-- <tech>android.nfc.tech.NfcA</tech>  Provides access to NFC-A (ISO 14443-3A) properties and I/O operations on a Tag. -->
+        <!-- <tech>android.nfc.tech.NfcB</tech>  Provides access to NFC-B (ISO 14443-3B) properties and I/O operations on a Tag. -->
+        <!-- <tech>android.nfc.tech.MifareClassic</tech>  Provides access to MIFARE Classic properties and I/O operations on a Tag. -->
+        <!-- <tech>android.nfc.tech.MifareUltralight</tech>  Provides access to MIFARE Ultralight properties and I/O operations on a Tag. -->      
+    </tech-list>
+</resources>

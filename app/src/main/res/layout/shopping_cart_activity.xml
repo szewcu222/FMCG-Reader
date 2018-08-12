@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutShoppingCartMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/application_vertical_margin"
+    android:paddingLeft="@dimen/application_horizontal_margin"
+    android:paddingRight="@dimen/application_horizontal_margin"
+    android:paddingTop="@dimen/application_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.ap.fmcgr.ShoppingCartActivity">
+
+    <ExpandableListView
+        android:id="@+id/listViewShoppingCart"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.85">
+    </ExpandableListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutShoppingCartTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/application_horizontal_margin"
+    	android:paddingRight="@dimen/application_horizontal_margin"
+        android:background="@color/orange"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewShoppingCartTotalPriceTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           	android:layout_weight="0.99"
+            android:text="@string/text_view_shopping_cart_total_price_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+        
+		<TextView
+	        android:id="@+id/textViewShoppingCartTotalPriceValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/black"  
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+    
+	<LinearLayout
+		style="?android:attr/buttonBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/black"    
+		android:orientation="horizontal">
+		
+		<Button
+		    style="?android:attr/buttonBarButtonStyle" 
+		    android:id="@+id/btnShoppingCartSave"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:visibility="gone"
+		    android:layout_weight="0.33"
+		    android:text="@string/btn_shopping_cart_save"
+		    android:textColor="@color/white" />
+		<Button
+		    style="?android:attr/buttonBarButtonStyle" 
+		    android:id="@+id/btnShoppingCartCollapse"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.33"
+		    android:text="@string/btn_shopping_cart_collapse"
+		    android:textColor="@color/white" />
+		<Button
+		    style="?android:attr/buttonBarButtonStyle" 
+		    android:id="@+id/btnShoppingCartClear"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.33"
+		    android:text="@string/btn_shopping_cart_clear"
+		    android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout> 

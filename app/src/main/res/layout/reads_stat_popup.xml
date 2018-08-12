@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readsStatPopup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/application_vertical_margin"
+    android:paddingLeft="@dimen/application_horizontal_margin"
+    android:paddingRight="@dimen/application_horizontal_margin"
+    android:paddingTop="@dimen/application_vertical_margin" >
+
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:background="@color/gray"
+	    android:orientation="vertical"
+	   	android:paddingBottom="@dimen/popup_shopping_cart_stat_blackspace_vertical_margin"
+		android:paddingLeft="@dimen/popup_shopping_cart_stat_blackspace_horizontal_margin"
+		android:paddingRight="@dimen/popup_shopping_cart_stat_blackspace_horizontal_margin"
+		android:paddingTop="@dimen/popup_shopping_cart_stat_blackspace_vertical_margin" >
+    
+	    <LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:background="@color/black"
+		    android:orientation="vertical"
+		   	android:paddingBottom="@dimen/popup_shopping_cart_stat_blackspace_vertical_margin"
+			android:paddingLeft="@dimen/popup_shopping_cart_stat_blackspace_horizontal_margin"
+			android:paddingRight="@dimen/popup_shopping_cart_stat_blackspace_horizontal_margin"
+			android:paddingTop="@dimen/popup_shopping_cart_stat_blackspace_vertical_margin" >
+	    
+		    <!-- Application Startup Counter -->
+		    <TextView
+		        android:id="@+id/textViewReadsStatAppStartupCntHeaded"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="visible"
+		        android:text="@string/reads_stat_app_startup_header"
+		        android:textColor="@color/white"
+		        android:textSize="@dimen/popup_reads_stat_header" />
+		
+		    <TextView
+		        android:id="@+id/textViewReadsStatAppStartupCntValue"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		       	android:visibility="visible"
+		        android:hint="@string/reads_stat_default_value"
+		        android:text="@string/reads_stat_default_value"
+		        android:gravity="center"
+		        android:textColor="@color/blue"
+		        android:textSize="@dimen/popup_reads_stat_value"/>
+		 		    
+		  	<!-- Readed Tag Counter -->
+		    <TextView
+		        android:id="@+id/textViewReadsStatReadedTagCntHeader"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="visible"
+		        android:text="@string/reads_stat_readed_tag_cnt_header"
+		        android:textColor="@color/white"
+		        android:textSize="@dimen/popup_reads_stat_header" />
+		
+		    <TextView
+		        android:id="@+id/textViewReadsStatReadedTagCntValue"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="visible"
+		        android:hint="@string/reads_stat_default_value"
+		        android:text="@string/reads_stat_default_value"
+		        android:gravity="center"
+		        android:textColor="@color/blue"
+		        android:textSize="@dimen/popup_reads_stat_value"/>
+		    
+		   	<!-- Products Add To Shopping Cart Counter-->
+		    <TextView
+		        android:id="@+id/textViewReadsStatAddToShoppingCartCntHeader"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		       	android:visibility="visible"
+		        android:text="@string/reads_stat_add_to_shopping_cart_cnt_header"
+		        android:textColor="@color/white"
+		        android:textSize="@dimen/popup_reads_stat_header" />
+		
+		    <TextView
+		        android:id="@+id/textViewReadsStatAddToShoppingCartCntValue"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="visible"
+		        android:hint="@string/reads_stat_default_value"
+		        android:text="@string/reads_stat_default_value"
+		        android:gravity="center"
+		        android:textColor="@color/blue"
+		        android:textSize="@dimen/popup_reads_stat_value"/>
+		    
+		   	<!-- Stat Reset Button -->
+	        <Button
+	            style="?android:attr/buttonStyle" 
+	            android:id="@+id/btnResetStat"
+	            android:layout_marginTop="@dimen/popup_reads_stat_reset_button_top_margin"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="0.2"
+	            android:text="@string/btn_reads_stat_reset_stat"
+	            android:textSize="@dimen/popup_reads_stat_reset_button_text_size"
+	            android:textColor="@color/white" />
+		    
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewShoppingCartRowDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/expandable_cart_child" 
+        android:drawablePadding="5dp">
+<!--         android:textStyle="bold"> -->
+<!-- 		android:text="@string/hello_world"> -->
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+    	android:background="@color/white" />
+
+</LinearLayout> 

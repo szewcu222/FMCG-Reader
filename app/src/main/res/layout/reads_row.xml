@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <TextView xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--      android:id="@+id/readedDataRow"   -->
+<!-- 	 android:layout_width="fill_parent"   -->
+<!-- 	 android:layout_height="wrap_content"  -->
+<!-- 	 android:textColor="@color/white" -->
+<!-- 	 android:textSize="15sp" >  -->
+<!-- </TextView> -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<!--     android:background="@color/black"  -->
+<!--     android:paddingBottom="@dimen/activity_reads_blackspace_vertical_margin" -->
+<!--     android:paddingLeft="@dimen/activity_reads_blackspace_horizontal_margin" -->
+<!--     android:paddingRight="@dimen/activity_reads_blackspace_horizontal_margin" -->
+<!--     android:paddingTop="@dimen/activity_reads_blackspace_vertical_margin" > -->
+    
+    <!-- Single row -->
+    <TextView
+        android:id="@+id/textViewReadedListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reads_activity_readed_list_header"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_reads_list_header_size" />
+
+    <TextView
+        android:id="@+id/textViewReadedListValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_view_readed_list_value_empty"
+        android:text="@string/text_view_readed_list_value_empty"
+        android:gravity="center"
+        android:textColor="@color/darkorange"
+        android:textSize="@dimen/activity_reads_list_value_size" />
+        
+ </LinearLayout>

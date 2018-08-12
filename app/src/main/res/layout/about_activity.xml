@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ap.fmcgr.AboutActivity" >
+
+<!-- <TextView -->
+<!--         android:id="@+id/textViewUniv" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:text="@string/about_prz" -->
+<!--         android:textAppearance="?android:attr/textAppearanceLarge" -->
+<!--         android:textColor="#4886ba" -->
+<!--         android:textStyle="bold" /> -->
+
+    <ImageView
+        android:id="@+id/imageViewLogoPRz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/logo_prz_vertical_margin"
+        android:paddingBottom="@dimen/logo_prz_vertical_margin"
+        android:paddingLeft="@dimen/logo_prz_horizontal_margin"
+    	android:paddingRight="@dimen/logo_prz_horizontal_margin"
+    	
+        android:layout_gravity="fill_vertical"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/about_prz"
+        
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_prz" />
+    
+    <ImageView
+        android:id="@+id/imageViewLogoWEiI"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/logo_prz_vertical_margin"
+        android:paddingBottom="@dimen/logo_prz_vertical_margin"
+        android:paddingLeft="@dimen/logo_prz_horizontal_margin"
+    	android:paddingRight="@dimen/logo_prz_horizontal_margin"
+    	
+        android:layout_gravity="fill_vertical"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/about_weii"
+        
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_weii" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="bottom" >
+
+        <TextView
+	        android:id="@+id/textViewAuthor"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.1"
+	        android:gravity="center"
+	        android:text="@string/about_author"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/TextViewSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:text="@string/about_subject"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+	        <TextView
+	            android:id="@+id/TextViewSupervisorHeader"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:text="@string/about_supervisorHeader"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/TextViewSupervisor"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/about_supervisor"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <TextView
+	            android:id="@+id/TextViewYear"
+	            android:paddingTop="5dp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textStyle="bold"
+	            android:text="@string/about_year"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

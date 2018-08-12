@@ -1,0 +1,4 @@
+#Sun Apr 22 21:41:02 CEST 2018
+base.0=C\:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+path.0=classes.dex
+renamed.0=classes.dex

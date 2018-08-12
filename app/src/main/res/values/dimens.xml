@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="application_horizontal_margin">10dp</dimen>
+    <dimen name="application_vertical_margin">10dp</dimen>
+
+<!--     Main Activity -->
+<!--     <dimen name="activity_main_button_vertical_margin">5dp</dimen> -->
+<!--     <dimen name="activity_main_button_text_size">20sp</dimen> -->
+
+    <!-- Reads Activity -->
+    <dimen name="activity_reads_blackspace_horizontal_margin">5dp</dimen>
+    <dimen name="activity_reads_blackspace_vertical_margin">5dp</dimen>
+    <dimen name="activity_reads_uid_size">12sp</dimen>
+    <dimen name="activity_reads_uid_number_size">20sp</dimen>
+    <dimen name="activity_reads_product_header_size">12sp</dimen>
+    <dimen name="activity_reads_product_name_size">20sp</dimen>
+    <dimen name="activity_reads_manufacturer_header_size">12sp</dimen>
+    <dimen name="activity_reads_manufacturer_name_size">20sp</dimen>
+    <dimen name="activity_reads_price_header_size">12sp</dimen>
+    <dimen name="activity_reads_price_value_size">20sp</dimen>
+    <dimen name="activity_reads_other_data_header_size">12sp</dimen>
+    <dimen name="activity_reads_list_header_size">12sp</dimen>
+    <dimen name="activity_reads_list_value_size">20sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Shopping Cart Activity -->
+    
+    <!-- About Activity -->
+    <dimen name="logo_prz_vertical_margin">10dp</dimen>
+	<dimen name="logo_prz_horizontal_margin">20dp</dimen>
+	
+	<!-- Shopping Cart Stat Activity -->
+	<dimen name="popup_shopping_cart_stat_blackspace_horizontal_margin">5dp</dimen>
+	<dimen name="popup_shopping_cart_stat_blackspace_vertical_margin">5dp</dimen>
+	<dimen name="popup_shopping_cart_stat_header">12sp</dimen>
+	<dimen name="popup_shopping_cart_stat_value">20sp</dimen>
+	
+	<!-- Reads Stat Activity -->
+	<dimen name="popup_reads_stat_blackspace_horizontal_margin">5dp</dimen>
+	<dimen name="popup_reads_stat_blackspace_vertical_margin">5dp</dimen>
+	<dimen name="popup_reads_stat_header">12sp</dimen>
+	<dimen name="popup_reads_stat_value">20sp</dimen>
+	<dimen name="popup_reads_stat_reset_button_text_size">15sp</dimen>
+	<dimen name="popup_reads_stat_reset_button_top_margin">20dp</dimen>
+	
+
+
+</resources>
