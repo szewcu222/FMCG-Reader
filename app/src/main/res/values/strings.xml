@@ -47,6 +47,9 @@
     <string name="alert_dialog_clear_message">Are you sure to delete all entry?</string>
     <string name="alert_dialog_clear_yes">YES</string>
     <string name="alert_dialog_clear_no">NO</string>
+    <string name="alert_dialog_make_order">Are you sure you want to make this order?</string>
+    <string name="alert_dialog_order_success">Your order has been sent successfully. Do you wish to clear list?</string>
+    <string name="alert_dialog_order_fail">Order sending FAILED. Check internet connection and please try again</string>
 
     <!-- GS1 Code and custom fields -->
     <string name="PN">Product name</string>

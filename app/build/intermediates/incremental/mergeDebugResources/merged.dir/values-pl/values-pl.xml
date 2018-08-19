@@ -48,6 +48,9 @@
     <string name="alert_dialog_delete_no">NIE</string>
     <string name="alert_dialog_delete_title">Usuń pozycję</string>
     <string name="alert_dialog_delete_yes">TAK</string>
+    <string name="alert_dialog_make_order">Czy chcesz wysłać to zamówienie?</string>
+    <string name="alert_dialog_order_fail">Wysyłanie NIE POWIODŁO się. Sprawdź połączenie internetowe i spróboj ponownie</string>
+    <string name="alert_dialog_order_success">Wysyłanie zamówienia powiodło się. Czy chcesz wyczyścić listę?</string>
     <string name="alert_dialog_reset_stat_message">Czy napewno chcesz wyzerować statystyki?</string>
     <string name="alert_dialog_reset_stat_no">NIE</string>
     <string name="alert_dialog_reset_stat_title">Zerowanie statystyk</string>

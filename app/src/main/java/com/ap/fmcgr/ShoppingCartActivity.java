@@ -188,26 +188,88 @@ public class ShoppingCartActivity extends Activity {
 
     Button.OnClickListener mCollapseAll = new Button.OnClickListener(){
 		public void onClick(View v) {
-            app = (App)getApplication();
-            List<ProductInfo> listProduct = app.currentShoppingCart;
+            new AlertDialog.Builder(ShoppingCartActivity.this)
+					.setTitle("Zamowienie")
+					.setMessage(R.string.alert_dialog_make_order)
+					.setPositiveButton(R.string.alert_dialog_clear_yes, new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							sendOrder();
+						}
+					})
+					.setNegativeButton(R.string.alert_dialog_clear_no, new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							//NOTHING
+						}
+					})
+					.show();
 
-			HttpAsyncTask httpAsyncTask = new HttpAsyncTask();
-
-
-			JSONObject zamowienie = null;
-			try {
-				zamowienie = httpAsyncTask.Products2JSON(listProduct);
-			} catch (JSONException e) {
-				String err = e.toString();
-				e.printStackTrace();
-			}
-
-			String zamowienieStr = zamowienie.toString();
-
-		    String data = listProduct.toString();
-			httpAsyncTask.execute(zamowienieStr);
 		}
 	};
+
+
+
+	//HELPERS
+	private void sendOrder(){
+		app = (App)getApplication();
+		List<ProductInfo> listProduct = app.currentShoppingCart;
+
+
+		JSONObject zamowienie = null;
+		try {
+			zamowienie = HttpAsyncTask.Products2JSON(listProduct);
+		} catch (JSONException e) {
+			String err = e.toString();
+			e.printStackTrace();
+		}
+
+		String zamowienieStr = zamowienie.toString();
+		String out = "";
+		new HttpAsyncTask(getBaseContext(), new HttpAsyncTask.AsyncResponse() {
+			@Override
+			public void processFinish(String output) {
+
+				Boolean success = !output.contains("error");
+				if(success)
+				{
+					new AlertDialog.Builder(ShoppingCartActivity.this)
+							.setTitle("Sukces!")
+							.setMessage(R.string.alert_dialog_order_success)
+							.setIcon(R.drawable.expandable_cart_child)
+							.setPositiveButton(R.string.alert_dialog_clear_yes, new DialogInterface.OnClickListener() {
+								public void onClick(DialogInterface dialog, int which) {
+									// continue with delete
+									app = (App)getApplication();
+									app.currentShoppingCart.clear();
+									createData();
+								}
+							})
+							.setNegativeButton(R.string.alert_dialog_clear_no, new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog, int which) {
+									//DO NOITHING
+								}
+							})
+							.show();
+				}
+				else
+				{
+					new AlertDialog.Builder(ShoppingCartActivity.this)
+							.setTitle("Nie powiodło się")
+							.setMessage(R.string.alert_dialog_order_fail)
+							.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+								public void onClick(DialogInterface dialog, int which) {
+									//REPEAT POSTING
+								}
+							})
+							.show();
+				}
+
+			}
+		}).execute(zamowienieStr);
+	}
+
 
 
 	//Naci ni cie przycisku Collapse
@@ -388,5 +450,7 @@ public class ShoppingCartActivity extends Activity {
 		if (NfcAdapter.ACTION_TECH_DISCOVERED.equals(action)){		
 		}
 	}
+
+	//HELPERS
 
 } 

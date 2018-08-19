@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839d8a23-1297-4591-becc-b575a28b5936" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" />
@@ -19,38 +18,57 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ap/fmcgr/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ap/fmcgr/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/HttpAsyncTask.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/R$xml.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ReadsActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity$4.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ap/fmcgr/ShoppingCartActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/wvDIijqe+2uhsuOLFkB8r8jZ6Pc=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/wvDIijqe+2uhsuOLFkB8r8jZ6Pc=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/HttpAsyncTask.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/HttpAsyncTask.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$xml.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/R$xml.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity$ReadDataAsyncTask.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ReadsActivity.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$3.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity$4.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/com/ap/fmcgr/ShoppingCartActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/30/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/30/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ISO15693.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ISO15693.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,13 +95,59 @@
       <file leaf-file-name="ShoppingCartActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="207" column="49" lean-forward="true" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="49" />
+            <state relative-caret-position="253">
+              <caret line="228" column="44" lean-forward="false" selection-start-line="228" selection-start-column="44" selection-end-line="228" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7399#7963#0" expanded="true" />
-                <element signature="e#7962#7963#0" expanded="true" />
+                <element signature="e#7399#8045#0" expanded="true" />
+                <element signature="e#7570#7602#0" expanded="true" />
+                <element signature="e#7628#7659#0" expanded="true" />
+                <element signature="e#7661#7814#0" expanded="true" />
+                <element signature="e#7813#7814#0" expanded="true" />
+                <element signature="e#7840#7870#0" expanded="true" />
+                <element signature="e#7872#8022#0" expanded="true" />
+                <element signature="e#8021#8022#0" expanded="true" />
+                <element signature="e#8044#8045#0" expanded="true" />
+                <element signature="e#8472#9769#0" expanded="true" />
+                <element signature="e#8742#8777#0" expanded="true" />
+                <element signature="e#8855#8886#0" expanded="true" />
+                <element signature="e#8888#9147#0" expanded="true" />
+                <element signature="e#9146#9147#0" expanded="true" />
+                <element signature="e#9175#9205#0" expanded="true" />
+                <element signature="e#9207#9371#0" expanded="true" />
+                <element signature="e#9370#9371#0" expanded="true" />
+                <element signature="e#9522#9554#0" expanded="true" />
+                <element signature="e#9587#9736#0" expanded="true" />
+                <element signature="e#9735#9736#0" expanded="true" />
+                <element signature="e#9768#9769#0" expanded="true" />
+                <element signature="e#10126#10946#0" expanded="true" />
+                <element signature="e#10256#10289#0" expanded="true" />
+                <element signature="e#10401#10658#0" expanded="true" />
+                <element signature="e#10657#10658#0" expanded="true" />
+                <element signature="e#10718#10874#0" expanded="true" />
+                <element signature="e#10873#10874#0" expanded="true" />
+                <element signature="e#10945#10946#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="51" column="120" lean-forward="false" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,12 +155,31 @@
       <file leaf-file-name="HttpAsyncTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="1164">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ReadsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="183" column="86" lean-forward="false" selection-start-line="183" selection-start-column="86" selection-end-line="183" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/content/ContextWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1850#1865#0" expanded="true" />
-                <marker date="1534688913115" expanded="false" signature="1935:1950" ph="&lt;~&gt;" />
+                <element signature="e#2527#2528#0" expanded="true" />
+                <element signature="e#2555#2556#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +188,28 @@
       <file leaf-file-name="AsyncTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/AsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Looper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Looper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,39 +222,6 @@
               <caret line="859" column="13" lean-forward="false" selection-start-line="859" selection-start-column="13" selection-end-line="859" selection-end-column="13" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISO4217.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ISO4217.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISO15693.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ISO15693.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -172,6 +242,10 @@
       <find>btn_reads_clear</find>
       <find>btn</find>
       <find>btnSaveShoppingCart</find>
+      <find>Wyczy</find>
+      <find>alert_dialog_clear_no</find>
+      <find>alert_dialog_clear_title</find>
+      <find>getBase</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2201,6 +2275,8 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ProductInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ISO15693.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java" />
       </list>
@@ -2465,6 +2541,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09701493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2478,7 +2555,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2518,21 +2594,9 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
-          <line>60</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
-          <line>89</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java</url>
@@ -2558,54 +2622,30 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java</url>
-          <line>204</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
-          <line>99</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/MyTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ReadsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2680,13 +2720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2715,14 +2748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ReadsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2791,14 +2816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="17366" column="0" lean-forward="false" selection-start-line="17366" selection-start-column="0" selection-end-line="17366" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2956,35 +2973,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="51" column="120" lean-forward="false" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/ap/fmcgr/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478">
+          <caret line="195" column="12" lean-forward="false" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="35" />
+          <folding>
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-19/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ReadsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="183" column="86" lean-forward="false" selection-start-line="183" selection-start-column="86" selection-end-line="183" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/ShoppingCartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="207" column="49" lean-forward="true" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="49" />
+        <state relative-caret-position="253">
+          <caret line="228" column="44" lean-forward="false" selection-start-line="228" selection-start-column="44" selection-end-line="228" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7399#7963#0" expanded="true" />
-            <element signature="e#7962#7963#0" expanded="true" />
+            <element signature="e#7399#8045#0" expanded="true" />
+            <element signature="e#7570#7602#0" expanded="true" />
+            <element signature="e#7628#7659#0" expanded="true" />
+            <element signature="e#7661#7814#0" expanded="true" />
+            <element signature="e#7813#7814#0" expanded="true" />
+            <element signature="e#7840#7870#0" expanded="true" />
+            <element signature="e#7872#8022#0" expanded="true" />
+            <element signature="e#8021#8022#0" expanded="true" />
+            <element signature="e#8044#8045#0" expanded="true" />
+            <element signature="e#8472#9769#0" expanded="true" />
+            <element signature="e#8742#8777#0" expanded="true" />
+            <element signature="e#8855#8886#0" expanded="true" />
+            <element signature="e#8888#9147#0" expanded="true" />
+            <element signature="e#9146#9147#0" expanded="true" />
+            <element signature="e#9175#9205#0" expanded="true" />
+            <element signature="e#9207#9371#0" expanded="true" />
+            <element signature="e#9370#9371#0" expanded="true" />
+            <element signature="e#9522#9554#0" expanded="true" />
+            <element signature="e#9587#9736#0" expanded="true" />
+            <element signature="e#9735#9736#0" expanded="true" />
+            <element signature="e#9768#9769#0" expanded="true" />
+            <element signature="e#10126#10946#0" expanded="true" />
+            <element signature="e#10256#10289#0" expanded="true" />
+            <element signature="e#10401#10658#0" expanded="true" />
+            <element signature="e#10657#10658#0" expanded="true" />
+            <element signature="e#10718#10874#0" expanded="true" />
+            <element signature="e#10873#10874#0" expanded="true" />
+            <element signature="e#10945#10946#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ap/fmcgr/HttpAsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1850#1865#0" expanded="true" />
-            <marker date="1534688913115" expanded="false" signature="1935:1950" ph="&lt;~&gt;" />
-          </folding>
+        <state relative-caret-position="1164">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

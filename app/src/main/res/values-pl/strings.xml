@@ -47,6 +47,10 @@
 	<string name="alert_dialog_clear_message">Czy jesteś pewny, że chcesz usunąć wszystkie pozycję?</string>
     <string name="alert_dialog_clear_yes">TAK</string>
     <string name="alert_dialog_clear_no">NIE</string>
+	<string name="alert_dialog_make_order">Czy chcesz wysłać to zamówienie?</string>
+	<string name="alert_dialog_order_success">Wysyłanie zamówienia powiodło się. Czy chcesz wyczyścić listę?</string>
+	<string name="alert_dialog_order_fail">Wysyłanie NIE POWIODŁO się. Sprawdź połączenie internetowe i spróboj ponownie</string>
+
 	
 	<!-- GS1 Code and custom fields -->
 	<string name="PN">Nazwa produktu</string>

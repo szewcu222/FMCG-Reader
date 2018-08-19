@@ -104,6 +104,9 @@
     <string name="alert_dialog_delete_no">NO</string>
     <string name="alert_dialog_delete_title">Delete entry</string>
     <string name="alert_dialog_delete_yes">YES</string>
+    <string name="alert_dialog_make_order">Are you sure you want to make this order?</string>
+    <string name="alert_dialog_order_fail">Order sending FAILED. Check internet connection and please try again</string>
+    <string name="alert_dialog_order_success">Your order has been sent successfully. Do you wish to clear list?</string>
     <string name="alert_dialog_reset_stat_message">Are you sure to reset this statistics?</string>
     <string name="alert_dialog_reset_stat_no">NO</string>
     <string name="alert_dialog_reset_stat_title">Reset statistics</string>
@@ -162,13 +165,9 @@
     <string name="title_activity_shopping_cart">Shopping cart</string>
     <string name="toast_to_the_end">to the end</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
 </resources>
