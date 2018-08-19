@@ -11,7 +11,7 @@ public class ISO15693 {
 	
 	
 	/***********************************************************************/
-	/* The function send an command frame and return responce
+	/* The function send an command frame and return response
 	 * The argument myTag is the intent triggered with the TECH_DISCOVERED
 	 */ 
 	/***********************************************************************/

@@ -30,6 +30,9 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class ShoppingCartActivity extends Activity {
 	private ExpandableListView expandableListView;
 	private LinearLayout linearLayoutShoppingCartTotalPrice;
@@ -182,14 +185,38 @@ public class ShoppingCartActivity extends Activity {
 
 		}
 	};
-	
-	//Naci ni cie przycisku Collapse
-	Button.OnClickListener mCollapseAll = new Button.OnClickListener(){
-		public void onClick(View v) {		
-			for(int i=0;i<expandableListView.getCount();i++)
-			expandableListView.collapseGroup(i);
+
+    Button.OnClickListener mCollapseAll = new Button.OnClickListener(){
+		public void onClick(View v) {
+            app = (App)getApplication();
+            List<ProductInfo> listProduct = app.currentShoppingCart;
+
+			HttpAsyncTask httpAsyncTask = new HttpAsyncTask();
+
+
+			JSONObject zamowienie = null;
+			try {
+				zamowienie = httpAsyncTask.Products2JSON(listProduct);
+			} catch (JSONException e) {
+				String err = e.toString();
+				e.printStackTrace();
+			}
+
+			String zamowienieStr = zamowienie.toString();
+
+		    String data = listProduct.toString();
+			httpAsyncTask.execute(zamowienieStr);
 		}
 	};
+
+
+	//Naci ni cie przycisku Collapse
+//	Button.OnClickListener mCollapseAll = new Button.OnClickListener(){
+//		public void onClick(View v) {
+//			for(int i=0;i<expandableListView.getCount();i++)
+//			expandableListView.collapseGroup(i);
+//		}
+//	};
 	
 	//Naci ni cie przycisku Clear
 	Button.OnClickListener mClearShoppingCart = new Button.OnClickListener(){

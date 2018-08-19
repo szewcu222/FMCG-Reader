@@ -12,6 +12,8 @@
 
     <uses-permission android:name="android.permission.NFC" />			<!-- Dostęp do modułu NFC -->
     <uses-permission android:name="android.permission.VIBRATE" />		<!-- Dostęp do funkcji wibracji -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:name="android.hardware.nfc"
