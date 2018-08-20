@@ -80,16 +80,16 @@
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\logo_weii.png"
     },
     {
-        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_reset_apps_stat.png.flat",
-        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\reset_apps_stat.png"
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_old.png.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_old.png"
     },
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\xml_nfc_tech_filter.xml.flat",
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_old.png.flat",
-        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_old.png"
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_reset_apps_stat.png.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\reset_apps_stat.png"
     },
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
@@ -130,6 +130,10 @@
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\layout_shopping_cart_row_details.xml.flat",
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\layout\\shopping_cart_row_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\layout_web_view_activity.xml.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\layout\\web_view_activity.xml"
     },
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_expandable_list_delete_entry.png.flat",

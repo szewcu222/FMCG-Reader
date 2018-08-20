@@ -63,7 +63,9 @@ public class HttpAsyncTask extends AsyncTask<String, Void, String> {
 
     public String send_Product(String zamowienie) {
 
-        String connection = "http://192.168.0.20:44371/api/zamowienie";
+        // not working CHECK in
+        //  C:\Users\Damian\source\repos\MarketNFC\.vs\config
+        String connection = "http://192.168.0.20:58845/api/zamowienie";
 
         String content = "";
         InputStream is = null;

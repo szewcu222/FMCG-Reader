@@ -418,14 +418,24 @@ public class ReadsActivity extends Activity {
         		}
     		}
 		}
-	};		
-	
-	Button.OnClickListener mReadedClear = new Button.OnClickListener() {												//Metoda wywo ywana w skutek naci ni cia przycisku "Zr b"
-		public void onClick(View v) {					
-			clearView();																								//Zeruje pola tekstowe aktywno ci odczytu
-		}
-	};		
-	
+	};
+
+
+
+
+//	Button.OnClickListener mReadedClear = new Button.OnClickListener() {												//Metoda wywo ywana w skutek naci ni cia przycisku "Zr b"
+//		public void onClick(View v) {
+//			clearView();																								//Zeruje pola tekstowe aktywno ci odczytu
+//		}
+//	};
+		Button.OnClickListener mReadedClear = new Button.OnClickListener() {												//Metoda wywo ywana w skutek naci ni cia przycisku "Zr b"
+			public void onClick(View v) {
+				Intent myIntent = new Intent(ReadsActivity.this, WebViewActivity.class);																							//Zeruje pola tekstowe aktywno ci odczytu
+				startActivity(myIntent);
+			}
+		};
+
+
 	private void clearView(){																							//Zeruje pola tekstowe aktywno ciu odczytuj cej dane z identyfikatora obiektu
 		textViewReadedUidNumber.setText("--");	
 		textViewReadedArticleName.setText("--");

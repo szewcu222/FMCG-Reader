@@ -52,6 +52,12 @@
             android:screenOrientation="portrait" >
         </activity>
 
+        <!-- Aktywność webview -->
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/title_activity_shopping_cart"
+            android:screenOrientation="portrait" >
+        </activity>
         <!-- Aktywność o programie -->
         <activity
             android:name=".AboutActivity"
