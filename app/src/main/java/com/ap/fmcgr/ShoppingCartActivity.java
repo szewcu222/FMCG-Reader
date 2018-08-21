@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.util.SparseArray;
@@ -215,59 +216,86 @@ public class ShoppingCartActivity extends Activity {
 		app = (App)getApplication();
 		List<ProductInfo> listProduct = app.currentShoppingCart;
 
+		SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+		String user = DataHolder.getUserName();
+		String grupa = DataHolder.getGroupName();
 
 		JSONObject zamowienie = null;
-		try {
-			zamowienie = HttpAsyncTask.Products2JSON(listProduct);
-		} catch (JSONException e) {
-			String err = e.toString();
-			e.printStackTrace();
+		if (user !=null) {
+			try {
+                zamowienie = HttpAsyncTask.Products2JSON(listProduct, user, grupa);
+            } catch (JSONException e) {
+                String err = e.toString();
+                e.printStackTrace();
+            }
+
+			String zamowienieStr = zamowienie.toString();
+			String out = "";
+			new HttpAsyncTask(getBaseContext(), new HttpAsyncTask.AsyncResponse() {
+                @Override
+                public void processFinish(String output) {
+
+                    Boolean success = !output.contains("error");
+                    if(success)
+                    {
+                        new AlertDialog.Builder(ShoppingCartActivity.this)
+                                .setTitle("Sukces!")
+                                .setMessage(R.string.alert_dialog_order_success)
+                                .setIcon(R.drawable.expandable_cart_child)
+                                .setPositiveButton(R.string.alert_dialog_clear_yes, new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        // continue with delete
+                                        app = (App)getApplication();
+                                        app.currentShoppingCart.clear();
+                                        createData();
+                                    }
+                                })
+                                .setNegativeButton(R.string.alert_dialog_clear_no, new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        //DO NOITHING
+                                    }
+                                })
+                                .show();
+                    }
+                    else
+                    {
+                        new AlertDialog.Builder(ShoppingCartActivity.this)
+                                .setTitle("Nie powiodło się")
+                                .setMessage(R.string.alert_dialog_order_fail)
+                                .setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        //REPEAT POSTING
+                                    }
+                                })
+                                .show();
+                    }
+
+                }
+            }).execute(zamowienieStr);
+		}
+		else {
+			new AlertDialog.Builder(ShoppingCartActivity.this)
+					.setTitle("Błąd!")
+					.setMessage("Aby kontynuować należy się zalogowqać")
+					.setPositiveButton("Zaloguj się", new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int which) {
+							// continue with delete
+							//ZAIMPLEMENTOWAC AKTYWNOSC LOGOWANIA SIE
+							Intent myIntent = new Intent(ShoppingCartActivity.this, WebViewActivity.class);																							//Zeruje pola tekstowe aktywno ci odczytu
+							startActivity(myIntent);
+						}
+					})
+					.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							//DO NOITHING
+						}
+					})
+					.show();
+
 		}
 
-		String zamowienieStr = zamowienie.toString();
-		String out = "";
-		new HttpAsyncTask(getBaseContext(), new HttpAsyncTask.AsyncResponse() {
-			@Override
-			public void processFinish(String output) {
-
-				Boolean success = !output.contains("error");
-				if(success)
-				{
-					new AlertDialog.Builder(ShoppingCartActivity.this)
-							.setTitle("Sukces!")
-							.setMessage(R.string.alert_dialog_order_success)
-							.setIcon(R.drawable.expandable_cart_child)
-							.setPositiveButton(R.string.alert_dialog_clear_yes, new DialogInterface.OnClickListener() {
-								public void onClick(DialogInterface dialog, int which) {
-									// continue with delete
-									app = (App)getApplication();
-									app.currentShoppingCart.clear();
-									createData();
-								}
-							})
-							.setNegativeButton(R.string.alert_dialog_clear_no, new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog, int which) {
-									//DO NOITHING
-								}
-							})
-							.show();
-				}
-				else
-				{
-					new AlertDialog.Builder(ShoppingCartActivity.this)
-							.setTitle("Nie powiodło się")
-							.setMessage(R.string.alert_dialog_order_fail)
-							.setNeutralButton("OK", new DialogInterface.OnClickListener() {
-								public void onClick(DialogInterface dialog, int which) {
-									//REPEAT POSTING
-								}
-							})
-							.show();
-				}
-
-			}
-		}).execute(zamowienieStr);
 	}
 
 

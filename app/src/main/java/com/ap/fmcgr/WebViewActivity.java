@@ -2,8 +2,10 @@ package com.ap.fmcgr;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.http.SslError;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.webkit.JavascriptInterface;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
@@ -24,7 +26,7 @@ public class WebViewActivity extends Activity{
 
         superWebView = (WebView) findViewById(R.id.myWebView);
 
-        String url = "https://192.168.0.20:44371";
+        String url = "https://192.168.0.20:44371/Account/Login";
         superWebView.getSettings().setJavaScriptEnabled(true);
         superWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         superWebView.setWebViewClient(new MyWebViewClient());
@@ -71,8 +73,20 @@ public class WebViewActivity extends Activity{
         @JavascriptInterface
         public void sendData(String data){
             this.data = data;
+            String[] dataArr = data.split("-");
+            String userName = dataArr[0];
+            String grupa = dataArr[1];
             Toast.makeText(mContext, "WEBINTERFACE" + data, Toast.LENGTH_LONG).show();
             user = data;
+
+//            SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+//            SharedPreferences.Editor editor = sharedPref.edit();
+//            editor.putString("userName", userName);
+//            editor.putString("grupa", grupa);
+//            editor.commit();
+            DataHolder.setUserName(userName);
+            DataHolder.setGroupName(grupa);
+
         }
 
     }

@@ -2,6 +2,7 @@ package com.ap.fmcgr;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -65,8 +66,8 @@ public class HttpAsyncTask extends AsyncTask<String, Void, String> {
 
         // not working CHECK in
         //  C:\Users\Damian\source\repos\MarketNFC\.vs\config
+//        String connection = "http://192.168.0.20:58845/api/zamowienie";
         String connection = "http://192.168.0.20:58845/api/zamowienie";
-
         String content = "";
         InputStream is = null;
 
@@ -94,18 +95,33 @@ public class HttpAsyncTask extends AsyncTask<String, Void, String> {
         } catch (Exception e) {
             String error = e.toString();
             Toast.makeText(context, e.toString(), Toast.LENGTH_LONG);
+
         }
         return content;
     }
 
 
-    public static JSONObject Products2JSON(List<ProductInfo> produktList) throws JSONException {
+    public static JSONObject Products2JSON(List<ProductInfo> produktList, String userName, String grupaName) throws JSONException {
+
+
+
         JSONObject zam = new JSONObject();
 
         zam.put("dataZamowienia", "2018-08-09T15:23:15.361");
         zam.put("typZamowienia", 0);
-        zam.put("uzytkownikName", "JACEK12345@JACEK.COM");
+
         zam.put("lodowkaName", "debesciaki");
+
+        JSONObject user = new JSONObject();
+        user.put("userName", userName);
+
+        JSONObject grupa = new JSONObject();
+        grupa.put("nazwa", grupaName);
+        JSONObject lodowka = new JSONObject();
+        lodowka.put("grupa",grupa);
+
+        zam.put("uzytkownik", user);
+        zam.put("lodowka",lodowka);
 
         JSONArray produkty = new JSONArray();
 

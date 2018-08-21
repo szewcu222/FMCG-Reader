@@ -58,7 +58,6 @@
         <!-- Aktywność webview -->
         <activity
             android:name="com.ap.fmcgr.WebViewActivity"
-            android:label="@string/title_activity_shopping_cart"
             android:screenOrientation="portrait" >
         </activity>
         <!-- Aktywność o programie -->
