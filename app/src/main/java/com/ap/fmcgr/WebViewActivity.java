@@ -2,6 +2,7 @@ package com.ap.fmcgr;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -47,6 +48,8 @@ public class WebViewActivity extends Activity{
 //                finish();
             }
             else if(kill){
+                Intent myIntent = new Intent(WebViewActivity.this, ReadsActivity.class);																							//Zeruje pola tekstowe aktywno ci odczytu
+                startActivity(myIntent);
                 finish();
             }
             else
@@ -76,14 +79,9 @@ public class WebViewActivity extends Activity{
             String[] dataArr = data.split("-");
             String userName = dataArr[0];
             String grupa = dataArr[1];
-            Toast.makeText(mContext, "WEBINTERFACE" + data, Toast.LENGTH_LONG).show();
+            Toast.makeText(mContext, "Zalogowano jako " + userName, Toast.LENGTH_LONG).show();
             user = data;
 
-//            SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-//            SharedPreferences.Editor editor = sharedPref.edit();
-//            editor.putString("userName", userName);
-//            editor.putString("grupa", grupa);
-//            editor.commit();
             DataHolder.setUserName(userName);
             DataHolder.setGroupName(grupa);
 

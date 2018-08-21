@@ -141,14 +141,14 @@
 	       		android:layout_width="match_parent"
 		        android:layout_height="wrap_content"    
 	            android:orientation="horizontal">
-	       
+
 		       <Button
-		           style="?android:attr/buttonBarButtonStyle" 
+		           style="?android:attr/buttonBarButtonStyle"
 		           android:id="@+id/btnReadedAddToCurrentShoppingCart"
 		           android:layout_width="match_parent"
 		           android:layout_height="match_parent"
 		           android:layout_weight="0.5"
-		           android:text="@string/btn_reads_add_to_current_shopping_cart" 
+		           android:text="@string/btn_reads_add_to_current_shopping_cart"
 		           android:textColor="@color/white" />
 		       <Button
 		           style="?android:attr/buttonBarButtonStyle" 

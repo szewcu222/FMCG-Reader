@@ -99,11 +99,11 @@
     <string name="title_activity_about">About</string>
     <string name="about_prz">Rzeszow University of Technology</string>
     <string name="about_weii">The Faculty of Electrical and Computer Engineering</string>
-    <string name="about_author">Anna Pitera</string>
+    <string name="about_author">Damian Szewc</string>
     <string name="about_subject">The application for contactless identification of objects with NFC chips embedded in mobile devices</string>
     <string name="about_supervisorHeader">Supervisor:</string>
     <string name="about_supervisor">Bartosz Pawłowicz, PhD, Eng.</string>
-    <string name="about_year">Rzeszow 2015</string>
+    <string name="about_year">Rzeszow 2018</string>
 
     <!-- Reads Stat -->
     <string name="reads_stat_default_value">--</string>

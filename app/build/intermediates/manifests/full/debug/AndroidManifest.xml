@@ -26,17 +26,22 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-
-        <!-- Główna aktywność programu -->
         <activity
-            android:name="com.ap.fmcgr.ReadsActivity"
-            android:label="@string/app_name"
+            android:name="com.ap.fmcgr.WelcomeActivity"
+            android:label="Welcome"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <!-- Główna aktywność programu -->
+        <activity
+            android:name="com.ap.fmcgr.ReadsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
 

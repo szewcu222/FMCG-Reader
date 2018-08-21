@@ -100,11 +100,11 @@
 	<string name="title_activity_about">O programie</string>
     <string name="about_prz">Politechnika Rzeszowska</string>
     <string name="about_weii">Wydział Elektrotechniki i Informatyki</string>
-    <string name="about_author">Anna Pitera</string>
-    <string name="about_subject">Aplikacja do bezstykowej identyfikacji obiektów za pomocą układów NFC wbudowanych w urządzenia mobilne</string>
+    <string name="about_author">Damian Szewc</string>
+    <string name="about_subject">Aplikacja wirtualnego koszyka wykorzystującego technikę RFID i chmurę obliczeniową w procesie zakupowym</string>
     <string name="about_supervisorHeader">Opiekun pracy:</string>
     <string name="about_supervisor">dr inż. Bartosz Pawłowicz</string>
-    <string name="about_year">Rzeszów 2015</string>
+    <string name="about_year">Rzeszów 2018</string>
     
     <!-- Reads Stat -->
     <string name="reads_stat_default_value">--</string>

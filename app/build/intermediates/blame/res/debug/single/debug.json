@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_activity.xml.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\layout\\welcome_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\menu_reads_menu.xml.flat",
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\menu\\reads_menu.xml"
     },
@@ -80,16 +84,16 @@
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\logo_weii.png"
     },
     {
-        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_old.png.flat",
-        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_old.png"
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_reset_apps_stat.png.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\reset_apps_stat.png"
     },
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\xml_nfc_tech_filter.xml.flat",
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_reset_apps_stat.png.flat",
-        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-xxhdpi\\reset_apps_stat.png"
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_old.png.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_old.png"
     },
     {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
