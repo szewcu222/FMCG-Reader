@@ -37,7 +37,7 @@
 	<string name="title_activity_shopping_cart">Koszyk</string>
 	<string name="text_view_shopping_cart_total_price_title">SUMA:</string>
 	<string name="btn_shopping_cart_save">Zapisz</string>
-	<string name="btn_shopping_cart_collapse">Zwiń</string>
+	<string name="btn_shopping_cart_collapse">Zamów</string>
 	<string name="btn_shopping_cart_clear">Wyczyść</string>	
 	<string name="alert_dialog_delete_title">Usuń pozycję</string>
 	<string name="alert_dialog_delete_message">Czy jesteś pewny, że chcesz usunąć tą pozycję?</string>

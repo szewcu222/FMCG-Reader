@@ -66,8 +66,8 @@ public class HttpAsyncTask extends AsyncTask<String, Void, String> {
 
         // not working CHECK in
         //  C:\Users\Damian\source\repos\MarketNFC\.vs\config
-//        String connection = "http://192.168.0.20:58845/api/zamowienie";
-        String connection = "http://192.168.0.20:58845/api/zamowienie";
+        //String connection = "http://192.168.0.20:58845/api/zamowienie";
+        String connection = "http://marketnfc.azurewebsites.net/api/zamowienie";
         String content = "";
         InputStream is = null;
 
@@ -134,8 +134,8 @@ public class HttpAsyncTask extends AsyncTask<String, Void, String> {
             produkt.put("rfidTag", UID);
 //            produkt.put("dataWaznosci", prod.getDateOfRead().getTime().toString());
             produkt.put("producent", prod.getManufacturerName().toString());
-            produkt.put("globalnyNumerJednostkiHandlowej", 500);
-            produkt.put("numerPartiiProdukcyjnej",20);
+            produkt.put("globalnyNumerJednostkiHandlowej", prod.getGtinNumber().toString());
+            produkt.put("numerPartiiProdukcyjnej",prod.getSerialNumber());
             produkt.put("cena", prod.getAmount());
 
             produkty.put(produkt);

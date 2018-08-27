@@ -220,6 +220,7 @@ public class ShoppingCartActivity extends Activity {
 		String user = DataHolder.getUserName();
 		String grupa = DataHolder.getGroupName();
 
+
 		JSONObject zamowienie = null;
 		if (user !=null) {
 			try {

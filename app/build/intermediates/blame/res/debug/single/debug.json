@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\layout\\about_activity.xml"
     },
     {
+        "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cloud_hd.png.flat",
+        "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-hdpi\\cloud_hd.png"
+    },
+    {
         "merged": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-pl-mdpi_logo_prz.png.flat",
         "source": "C:\\Users\\Damian\\StudioProjects\\FMCG Reader\\app\\src\\main\\res\\drawable-pl-mdpi\\logo_prz.png"
     },

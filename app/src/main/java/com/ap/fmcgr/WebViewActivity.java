@@ -27,7 +27,8 @@ public class WebViewActivity extends Activity{
 
         superWebView = (WebView) findViewById(R.id.myWebView);
 
-        String url = "https://192.168.0.20:44371/Account/Login";
+//        String url = "https://192.168.0.20:44371/Account/Login";
+        String url = "https://marketnfc.azurewebsites.net/Account/Login";
         superWebView.getSettings().setJavaScriptEnabled(true);
         superWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         superWebView.setWebViewClient(new MyWebViewClient());
@@ -61,6 +62,7 @@ public class WebViewActivity extends Activity{
         public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
             handler.proceed();
         }
+
 
 
     }
